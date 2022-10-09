@@ -118,6 +118,7 @@ body
 .contacts-inner
   display: flex
   background-color: #574B63
+  text-align: center
 
  
 .contacts-form
@@ -125,12 +126,14 @@ body
 
 .contacts-form
   color:#FFFFFF
-  padding: 140px 100px
+  padding: 140px 93px
   h2
     color: inherit
     font-size: 32px
     font-weight: 700
     line-height: 39px
+    text-align: left
+    margin-bottom: 72px
     text-align: left
     // margin: 137px 93px 72px
   p
@@ -139,9 +142,19 @@ body
     font-weight: 400
     line-height: 130%
     opacity: 0.5
-    // margin: 30px 115px 30px
+    text-align: center
+    margin: 30px 0px 0px
   button
     // margin-bottom: 138px
+    border: none
+    color: #490E84
+    background-color: #ffffff
+    text-transform: uppercase
+    border-radius: 30px
+    padding: 16px 81px 16px
+    margin: 30px 0px 0px
+    font-weight: 700
+    cursor: pointer
   
 .contacts-title
   margin: 0 0 60px
@@ -159,13 +172,57 @@ body
   font-weight: 400
   line-height: 18px
 
-  ::placeholder
-    color: #ffffff
+.contacts-input::placeholder
+  color: #ffffff
+  font-size: 14px
+  font-weight: 400
+  line-height: 18px
+  opacity: 0.5
+  font-family: 'Inter', sans-serif 
+
+.footer
+  background-color: #0A0A0A
+
+.footer-inner
+  color: #717171
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 50px 0px
+  .phone
+    font-family: Inter
+    font-size: 24px
+    font-weight: 400
+    line-height: 29px
+  a
+    font-family: Inter
     font-size: 14px
     font-weight: 400
     line-height: 18px
-    opacity: 0.5
-    font-family: 'Inter', sans-serif 
 
 
 
+.footer-link
+  flex-grow: 1
+  flex-basis: 0
+  text-align: left
+
+@media (max-width: 1200px)
+  .headeline-img
+    width:100%
+
+
+// @media (max-width: 940px)
+
+
+
+
+@media (max-width: 560px)
+  .title
+    font-size:34px
+    line-height:42px
+
+  .headeline-btn
+    font-size: 18px
+    line-height: 22px
+    padding: 16px 90px
